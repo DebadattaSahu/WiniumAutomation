@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="159274" started-at="2020-02-04T01:56:01 PST" finished-at="2020-02-04T01:58:40 PST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="159274" started-at="2020-02-04T01:56:01 PST" finished-at="2020-02-04T01:58:40 PST">
+      <class name="testCases.cica_Application">
+        <test-method status="PASS" signature="loginPage()[pri:0, instance:testCases.cica_Application@3cef309d]" name="loginPage" duration-ms="25994" started-at="2020-02-04T01:56:01 PST" finished-at="2020-02-04T01:56:27 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="cicaApplication()[pri:0, instance:testCases.cica_Application@3cef309d]" name="cicaApplication" duration-ms="26488" started-at="2020-02-04T01:56:27 PST" depends-on-methods="testCases.cica_Application.loginPage" finished-at="2020-02-04T01:56:54 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cicaApplication -->
+        <test-method status="PASS" signature="newApplication()[pri:0, instance:testCases.cica_Application@3cef309d]" name="newApplication" duration-ms="40458" started-at="2020-02-04T01:56:54 PST" depends-on-methods="testCases.cica_Application.cicaApplication" finished-at="2020-02-04T01:57:34 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newApplication -->
+        <test-method status="PASS" signature="creditType()[pri:0, instance:testCases.cica_Application@3cef309d]" name="creditType" duration-ms="1269" started-at="2020-02-04T01:57:34 PST" depends-on-methods="testCases.cica_Application.newApplication" finished-at="2020-02-04T01:57:35 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditType -->
+        <test-method status="PASS" signature="programType()[pri:0, instance:testCases.cica_Application@3cef309d]" name="programType" duration-ms="26063" started-at="2020-02-04T01:57:35 PST" depends-on-methods="testCases.cica_Application.creditType" finished-at="2020-02-04T01:58:01 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- programType -->
+        <test-method status="PASS" signature="memberName()[pri:0, instance:testCases.cica_Application@3cef309d]" name="memberName" duration-ms="7020" started-at="2020-02-04T01:58:01 PST" depends-on-methods="testCases.cica_Application.programType" finished-at="2020-02-04T01:58:08 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- memberName -->
+        <test-method status="PASS" signature="editApplication()[pri:0, instance:testCases.cica_Application@3cef309d]" name="editApplication" duration-ms="9747" started-at="2020-02-04T01:58:08 PST" depends-on-methods="testCases.cica_Application.memberName" finished-at="2020-02-04T01:58:18 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editApplication -->
+        <test-method status="PASS" signature="edit_ProjGenInfo()[pri:0, instance:testCases.cica_Application@3cef309d]" name="edit_ProjGenInfo" duration-ms="22168" started-at="2020-02-04T01:58:18 PST" depends-on-methods="testCases.cica_Application.editApplication" finished-at="2020-02-04T01:58:40 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit_ProjGenInfo -->
+      </class> <!-- testCases.cica_Application -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
